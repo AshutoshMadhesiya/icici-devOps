@@ -1,0 +1,3 @@
+docker build -t cammey20/my-fastapi -f Dockerfile.prod .                                 
+docker images                                                                            
+docker run -d -p 9000:8000 cammey20/my-fastapi  
